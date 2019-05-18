@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'simplesolution.dev'
+version '1.0.0'
+
+mainClassName = "simplesolution.dev.ApachePOIMergeCellsExample"
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.apache.poi', name: 'poi', version: '4.0.1'
+}
